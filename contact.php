@@ -30,8 +30,8 @@ $sujet = "Investisseur";
 //=========
  
 //=====Création du header de l'e-mail.
-$header = "From: \"Social Magnier Courtier\"<" . EMAIL_RES . ">" . $passage_ligne;
-$header .= "Reply-to: \"Social Magnier Courtier\" <" . EMAIL_RES . ">" . $passage_ligne;
+$header = "From: \"Smart Investment\"<" . EMAIL_RES . ">" . $passage_ligne;
+$header .= "Reply-to: \"Smart Investment\" <" . EMAIL_RES . ">" . $passage_ligne;
 $header .= "MIME-Version: 1.0" . $passage_ligne;
 $header .= "Content-Type: multipart/alternative;" . $passage_ligne . " boundary=\"$boundary\"" . $passage_ligne;
 //==========
